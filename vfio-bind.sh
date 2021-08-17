@@ -225,4 +225,4 @@ for device in "${array[@]}"; do
 
 done
 
-export DRIVER_DATA=$DRIVER_DATA
+echo $DRIVER_DATA > driver_data
